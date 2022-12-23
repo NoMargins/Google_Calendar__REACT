@@ -1,7 +1,6 @@
 [💎Click here and watch live Google-Calendar_React💎](https://comforting-froyo-9c4329.netlify.app/)
 
 This project is a calendar where the user can add, watch, delete own events. 
-Watch it live at Netify: 
 
 The tech stack is:
 - JavaScript
