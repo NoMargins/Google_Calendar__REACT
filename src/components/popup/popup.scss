@@ -1,0 +1,49 @@
+.popup {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 100;
+	&_content {
+		min-width: 200px;
+		background: #fff;
+		padding: 16px;
+		border: 1px solid #ccc;
+		border-radius: 8px;
+
+		&__navigation {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: right;
+		}
+	}
+}
+
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: #cccccc45;
+	z-index: 10;
+}
+
+.event-btn__delete,
+.event-btn__close {
+	width: auto;
+	height: auto;
+	padding: 0;
+	border: none;
+	color: cornflowerblue;
+	background-color: #fff;
+}
+
+.event-btn__delete {
+	margin-right: 10px;
+}
+
+.popup_event-title {
+	font-weight: 800;
+}
